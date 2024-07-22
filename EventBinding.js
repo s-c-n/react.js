@@ -5,20 +5,19 @@ class EventBinding extends Component {
         super(props)
 
         this.state = {
-            message: 'Hello'
+            count: 0
         }
-        this.updateEvent = this.updateEvent.bind(this)
         }
-        updateEvent(){
-            this.setState({
-                message: 'Goodbye'
-                })
+        count = () => {
+          this.setState({
+            count: this.state.count + 1
+          })
         }
   render() {
     return (
       <div>
-        <h4>{this.state.message}</h4>
-        <button onClick={this.updateEvent}>Click to Update</button>
+        <h3>You have clicked on the button{this.state.count}time</h3>
+        <button onClick={this.count}>Click to Update</button>
       </div>
     )
   }
