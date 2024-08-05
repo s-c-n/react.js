@@ -146,12 +146,12 @@ table, th {
   .ima{
     position: relative;
     top: 165px;
-    left: 240px;
+    left: 230px;
     color: black;
   }
   .roi{
     position: relative;
-    left: 150px;
+    left: 140px;
     top: 20px;
     font-size: 25px;
     color: orangered;
@@ -165,23 +165,23 @@ table, th {
   .sal{
     position: relative;
     top: -353px;
-    left: 500px;
+    left: 550px;
   }
   .dip{
     position: relative;
-    top: -265px;
-    left: 659px;
+    top: -278px;
+    left: 720px;
     color: black;
   }
   .pid{
     position: relative;
     top: -786px;
-    left: 920px;
+    left: 980px;
   }
   .las{
     position: relative;
     top: -700px;
-    left: 1079px;
+    left: 1132px;
     color: black;
   }
   .lopp{

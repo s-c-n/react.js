@@ -4,11 +4,15 @@ import myImage from './photoss/logo.png';
 import mysImage from './photoss/slide.png' 
 import myImages from './photoss/orange.png' 
 import myImagess from './photoss/grapes.png' 
+import myImagez from './photoss/card-item-1.png' 
+import myImagej from './photoss/card-item-2.png' 
+import myImageo from './photoss/card-item-3.png' 
 import myImagel from './photoss/gauva.png' 
 import myPic from './photoss/fruit.jpeg' 
 import myPicture from './photoss/client.png' 
 function Ass() {
   return (
+    <header className='lomn justify-content-fixed'>
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <ul>
@@ -90,7 +94,7 @@ function Ass() {
     <p className='ww'>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
     <br></br>
         <div className='ima'>
-      <img src={myImage} alt='bbb' width={60}/>
+      <img src={myImagez} alt='bbb' width={60}/>
     </div>
     <div>
       <table>
@@ -100,23 +104,23 @@ function Ass() {
       </table>
       <br></br>
       <div className='dip'>
-      <img src={myImage} alt='bbb' width={60}/>
+      <img src={myImagej} alt='bbb' width={60}/>
     </div>
     </div>
     <div>
       <table className='sal'>
         <tr>
-          <th> <span className='roi'> Orange</span> <br></br> <span className='qqq'>There are many variations of passages <br></br> of Lorem Ipsum available, but the <br></br> majority have suffered alteration in <br></br> some form, by injected humour, or <br></br> randomised words which don't look <br></br> even slightly believable. </span> </th>
+          <th> <span className='roi'> Grapes</span> <br></br> <span className='qqq'>There are many variations of passages <br></br> of Lorem Ipsum available, but the <br></br> majority have suffered alteration in <br></br> some form, by injected humour, or <br></br> randomised words which don't look <br></br> even slightly believable. </span> </th>
         </tr>
       </table>
       <br></br>
       <div className='las'>
-      <img src={myImage} alt='bbb' width={60}/>
+      <img src={myImageo} alt='bbb' width={60}/>
     </div>
     <div>
       <table className='pid'>
         <tr>
-          <th> <span className='roi'> Orange</span> <br></br> <span className='qqq'>There are many variations of passages <br></br> of Lorem Ipsum available, but the <br></br> majority have suffered alteration in <br></br> some form, by injected humour, or <br></br> randomised words which don't look <br></br> even slightly believable. </span> </th>
+          <th> <span className='roi'> Gauva</span> <br></br> <span className='qqq'>There are many variations of passages <br></br> of Lorem Ipsum available, but the <br></br> majority have suffered alteration in <br></br> some form, by injected humour, or <br></br> randomised words which don't look <br></br> even slightly believable. </span> </th>
         </tr>
       </table>
     </div>
@@ -254,6 +258,7 @@ function Ass() {
      <br></br>
      <p className='diol'>Copyright © 2019 All Rights Reserved By Free Html Templates</p>
     </div>
+    </header>
   )
 }
 
