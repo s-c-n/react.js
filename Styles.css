@@ -1,0 +1,507 @@
+nav ul{
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    float: inline-start;
+    align-items: center;
+    display: flex;
+}
+li,a{
+    position: relative;
+    top: -15px;
+    left: 130px;
+    padding: 10px;
+    color: #fff;
+}
+.wait{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.images{
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+.bg-success{
+    height: 500px;
+    position: relative;
+    top: -20px;
+}
+.was{
+    position: relative;
+    top: -28px;
+    left: 300px;
+    font-size: 20px;
+}
+.me{
+    position: relative;
+    top: -28px;
+    left: 350px;
+    background-color: orangered;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+}
+.container7{
+    position: relative;
+    left: 90px;
+    font-size: 80px;
+}
+.pug{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    left: 85px;
+    top: 10px;
+    width: 100px;
+    background-color: orangered;
+    color: #fff;
+}
+.but{
+    position: relative;
+    left: 200px;
+    top: -20px; 
+    width: 100px;
+    background-color: black;
+}
+.imag{
+    position: relative;
+    top: -400px;
+    left: 750px;
+}
+.container9{
+    position: relative;
+    top: 60px;   
+}
+.container9{
+    position: relative;
+    top: 60px;   
+}
+.container7{
+    position: relative;
+    left: 90px;
+    font-size: 80px;
+}
+.pug{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    left: 85px;
+    top: 10px;
+    width: 100px;
+    background-color: orangered;
+    color: #fff;
+}
+.but{
+    position: relative;
+    left: 200px;
+    top: -20px; 
+    width: 100px;
+    background-color: black;
+}
+.imag{
+    position: relative;
+    top: -400px;
+    left: 750px;
+}
+.wwe{
+    position: relative;
+    top: 100px;
+    left: 650px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1.3);
+}
+.ww{
+    position: relative;
+    top: 100px;
+    left: 350px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1.3);
+}
+table, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 80px;
+    top: 80px;
+  } 
+  .ima{
+    position: relative;
+    top: 165px;
+    left: 240px;
+    color: black;
+  }
+  .roi{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-size: 25px;
+    color: orangered;
+  }
+  .qqq{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    font-size: 20px;
+  }
+  .sal{
+    position: relative;
+    top: -353px;
+    left: 500px;
+  }
+  .dip{
+    position: relative;
+    top: -265px;
+    left: 659px;
+    color: black;
+  }
+  .pid{
+    position: relative;
+    top: -786px;
+    left: 920px;
+  }
+  .las{
+    position: relative;
+    top: -700px;
+    left: 1079px;
+    color: black;
+  }
+  .lopp{
+    position: relative;
+    top: -750px;
+    left: 650px;
+    height: 60px;
+    width: 150px;
+    background-color: black;
+  }
+  .xip{
+    font-size: 20px;
+  }
+  .mine{
+    position: relative;
+    top: -700px;
+    left: 654px;
+    font-size: 30px;
+  }
+  .enim{
+    position: relative;
+    top: -700px;
+    left: 400px;
+    font-size: 20px;
+  }
+  .hap{
+    position: relative;
+    top: -650px;
+    left: 100px;
+  }
+  .cap{
+    position: relative;
+    top: -630px;
+    left: 100px;
+    font-size: 20px;
+  }
+  .ppol{
+    position: relative;
+    top: -600px;
+    left: 100px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+  }
+  .game{
+    position: relative;
+    top: -830px;
+    left: 1000px;
+  }
+  .pah{
+    position: relative;
+    right: 902px;
+    top: 150px;
+  }
+  .pac{
+    position: relative;
+    right: 902px;
+    top: 190px;
+    font-size: 20px;
+  }
+  .chill{
+    position: relative;
+    left: -900px;
+    top: 200px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+  }
+.gam{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.child{
+    position: relative;
+    right: 902px;
+    top: -90px;
+}
+.paren{
+    position: relative;
+    right: 902px;
+    top: -60px;
+    font-size: 20px;
+}
+.chi{
+    position: relative;
+    left: -900px;
+    top: -30px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+}
+.yam{
+    position: relative;
+    top: -250px;
+    left: 60px;
+}
+.may{
+    position: relative;
+    top: -950px;
+}
+.poll{
+    position: relative;
+    font-size: 150px;
+    top: -1380px;
+    left: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.llop{
+    position: relative;
+    top: -1170px;
+    left: 600px;
+    font-size: 40px;
+}
+.opl{
+    position: relative;
+    top: -1170px;
+    left: 350px;
+    font-size: 20px;
+}
+.bg-danger{
+    position: relative;
+    top: -1170px;
+    height: 600px;
+}
+.pict{
+    position: relative;
+    left: 500px;
+    top: -150px;
+}
+.container10{
+    position: relative;
+    top: 330px;
+    left: 664px;
+    font-size: 30px;
+    color: #000;
+}
+.eep{
+    position: relative;
+    top: 350px;
+    left: 120px;
+    font-size: 20px;
+    color: #000;
+}
+.sss{
+    position: relative;
+    left: 300px;
+}
+.sas{
+    position: relative;
+    left: 350px;
+}
+.pict{
+    position: relative;
+    left: 500px;
+    top: -150px;
+}
+.container10{
+    position: relative;
+    top: 330px;
+    left: 664px;
+    font-size: 30px;
+    color: #000;
+}
+.eep{
+    position: relative;
+    top: 350px;
+    left: 120px;
+    font-size: 20px;
+    color: #000;
+}
+.sss{
+    position: relative;
+    left: 300px;
+}
+.sas{
+    position: relative;
+    left: 350px;
+}
+.container8{
+    position: relative;
+    top: 60px;   
+}
+.container8{
+    position: relative;
+    top: 60px;   
+}
+.us{
+    position: relative;
+    top: -1020px;
+    left: 90px;
+    font-size: 30px;
+}
+input{
+    width: 800px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    position: relative;
+    top: -1020px;
+    left: 80px;
+    font-size: 20px;
+  }
+  .rep{
+    position: relative;
+    top: 80px;
+  }
+  .sub{
+    position: relative;
+    top: -880px;
+    height: 50px;
+    width: 150px;
+  }
+  .do{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .ppp{
+    width: 1580px;
+    position: relative;
+    top: -2200px;
+  }
+  .qip{
+    position: relative;
+    top: -70px;
+    left: 80px;
+    font-size: 30px;
+  }
+  .piq{
+    position: relative;
+    top: -70px;
+    left: 80px;
+    font-size: 20px;
+  }
+  .ipq{
+    position: relative;
+    top: -411px;
+    left: 400px;
+    font-size: 30px;
+  }
+  .pqi{
+    position: relative;
+    top: -411px;
+    left: 400px;
+    font-size: 20px;
+  }
+  .pwi{
+    position: relative;
+    top: -753px;
+    left: 700px;
+    font-size: 30px;
+  }
+  .pio{
+    position: relative;
+    top: -750px;
+    left: 700px;
+    font-size: 20px;
+  }
+  .rrp{
+    position: relative;
+    top: -1094px;
+    left: 1000px;
+    font-size: 30px;
+  }
+.loppi{
+    position: relative;
+    top: -1102px;
+    left: 1000px;
+    display: inline-flex;
+    font-size: 35px;
+}
+.fa-twitter{
+    position: relative;
+    left: 10px;
+}
+.fa-linkedin{
+    position: relative;
+    left: 15px;
+}
+.fa-instagram{
+    position: relative;
+    left: 25px;
+}
+.lll[type=text] {
+    position: relative;
+    top: -1077px;
+    left: 1000px;
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  .wlk{
+    position: relative;
+    top: -1087px;
+    left: 1000px;
+    font-size: 25px;
+  }
+  .mol{
+    position: relative;
+    top: -1087px;
+    left: 1000px;
+    width: 150px;
+    height: 35px;
+  }
+  .rtl{
+    font-size: 20px;
+  }
+.alert-secondary{
+    position: relative;
+    top: -950px;
+    height: 100px;
+}
+.diol{
+    position: relative;
+    top: -1055px;
+    left: 450px;
+    font-size: 20px;
+}
