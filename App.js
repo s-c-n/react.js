@@ -1,47 +1,34 @@
+import { useState } from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
-import ClassClick from './Component/ClassClick';
-import Details from './Component/Details';
-import EventBinding from './Component/EventBinding';
-import FunctionClick from './Component/FunctionClick';
-import Great from './Component/Great';
-import Table from './Component/Table';
-import Hook from './Component/Hook';
-import Assign from './Component/Assign';
-import Home from './Component/Home';
-import About from './Component/About';
-import Contact from './Component/Contact';
-import Navbar from './Component/Page/Navbar';
-import Image from './Component/Page/Image';
-import Para from './Component/Page/Para';
-import Button from './Component/Page/Button';
-import Buttons from './Component/Page/Buttons';
+import UserTable from './Component/UserTable';
+import AddUserForm from './Component/AddUserForm';
 function App() {
-  return (
-    <div>
-      {/* <Great />
-      <Table />
-      <Details nickname = 'LM10' title = 'G.O.A.T'/>
-      <FunctionClick />
-      <ClassClick />
-      <EventBinding />
-      <Hook />
-      <Assign />
-      <Home />
-      <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-      </BrowserRouter> */}
+  const userData = [
+    {id: 1, name: 'John', username: 'johhny'},
+    {id: 2, name: 'Jane', username: 'janey'},
+    {id: 3, name: 'Christopher', username: 'chris'}
+  ]
+  const [users, setUsers] = useState(userData)
+  const addUser = (user) =>{
+    user.id = user.length + 1
+    setUsers([...users, user])
+  }
+    return (
+<div className='container'>
+<h2>CRUD APP with Hooks</h2>
+<div className='flex-row'>
+  <div className='flex-large'>
+    <h2>Add User</h2>
+    <AddUserForm addUser={addUser} />
+  </div>
+  <div className='flex-large'>
+    <h2>View Users</h2>
+    <UserTable users={users} />
+  </div>
+</div>
+  
 
-     <Navbar />
-     <Image />
-     <Para />
-     <Button />
-     <Buttons />
-    </div>
+</div>
   );
 }
 
